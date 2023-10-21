@@ -205,3 +205,43 @@
 .blog-detail a{
   text-decoration: none;
 }
+
+/* Create component style */
+.create {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+  /* background-color: rgb(252, 209, 194); */
+}
+
+.create label {
+  font-size: 30px;
+  color: rgb(252, 69, 2);
+  margin-bottom: 8px;
+}
+
+.create h2 {
+  font-size: 30px;
+  color: rgb(252, 69, 2);
+  margin-bottom: 16px;
+}
+
+.create input, .create textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(252, 69, 2);
+  border-radius: 4px;
+  resize: none;
+}
+
+.create button {
+  background-color: rgb(252, 69, 2);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
