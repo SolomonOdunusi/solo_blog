@@ -1,0 +1,46 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "The Art of Coding",
+      "author": "John Doe",
+      "body": "In this blog post, we explore the creative side of coding and how it's more than just lines of code. Coding can be a form of art where programmers express themselves through elegant solutions."
+    },
+    {
+      "id": 2,
+      "title": "Exploring Machine Learning Algorithms",
+      "author": "Jane Smith",
+      "body": "Machine learning is a fascinating field with a wide range of algorithms. In this post, we dive deep into some popular machine learning algorithms, explaining how they work and their real-world applications."
+    },
+    {
+      "id": 3,
+      "title": "The Future of Space Exploration",
+      "author": "David Johnson",
+      "body": "Space exploration is advancing at an unprecedented rate. This blog post discusses the latest developments in space technology, missions to Mars, and the potential for human colonization of other planets."
+    },
+    {
+      "id": 4,
+      "title": "Healthy Eating: A Beginner's Guide",
+      "author": "Emily Wilson",
+      "body": "Eating healthy is essential for overall well-being. In this beginner's guide to healthy eating, we provide tips on balanced diets, meal planning, and the importance of nutrition for a healthier lifestyle."
+    },
+    {
+      "id": 5,
+      "title": "The Impact of Climate Change",
+      "author": "Michael Brown",
+      "body": "Climate change is a global crisis with far-reaching consequences. This blog post delves into the science behind climate change, its effects on ecosystems, and what individuals and communities can do to address it."
+    },
+    {
+      "id": 6,
+      "title": "Traveling on a Budget",
+      "author": "Sarah Adams",
+      "body": "Traveling can be expensive, but it doesn't have to break the bank. Learn how to travel on a budget, find affordable accommodations, and explore destinations while saving money on your adventures."
+    },
+    {
+      "id": 7,
+      "title": "The Benefits of Meditation",
+      "author": "Alex Turner",
+      "body": "Meditation has numerous mental and physical health benefits. In this blog post, we explore the practice of meditation, its effects on stress reduction, mindfulness, and overall well-being."
+    }
+  ]
+}
