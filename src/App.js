@@ -4,6 +4,7 @@ import Home from './Home';
 import Create from './Create'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import BlogDetail from './BlogDetail';
+import Err404 from './Err404';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
             </Route>
             <Route path="/blogs/:id">
               <BlogDetail />
+            </Route>
+            <Route  path="*">
+              <Err404 />
             </Route>
           </Switch>
         </div>

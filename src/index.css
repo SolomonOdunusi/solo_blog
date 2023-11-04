@@ -285,3 +285,23 @@
 .Delete:hover {
   background-color: #c0392b; /* Darker red color on hover */
 }
+
+.notfound {
+  border: 3px solid #e00404;
+  padding: 5%;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #c0392b;
+  box-shadow: 10px 10px 15px #333;
+}
+
+.notfound h2, p, .return {
+  color: #fff;
+
+}
+
+.notfound .return {
+  border-radius: 4px;
+  text-decoration: underline;
+}
