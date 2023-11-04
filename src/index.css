@@ -205,3 +205,103 @@
 .blog-detail a{
   text-decoration: none;
 }
+
+/* Create component style */
+.create {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+  /* background-color: rgb(252, 209, 194); */
+}
+
+.create label {
+  font-size: 30px;
+  color: rgb(252, 69, 2);
+  margin-bottom: 8px;
+}
+
+.create h2 {
+  font-size: 30px;
+  color: rgb(252, 69, 2);
+  margin-bottom: 16px;
+}
+
+.create input, .create textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(252, 69, 2);
+  border-radius: 4px;
+  resize: none;
+}
+
+.create button {
+  background-color: rgb(252, 69, 2);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create button:hover {
+  background-color: #e74c3c;
+}
+
+.addBlogLoading {
+.create button.add-blog {
+  background-color: rgb(252, 69, 2);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out 0.1s;
+}
+
+.create button.add-blog:hover {
+  background-color: #e74c3c;
+  transform: translateY(-2px);
+}
+}
+
+.Delete {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #e74c3c; /* Red color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.Delete:hover {
+  background-color: #c0392b; /* Darker red color on hover */
+}
+
+.notfound {
+  border: 3px solid #e00404;
+  padding: 5%;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #c0392b;
+  box-shadow: 10px 10px 15px #333;
+}
+
+.notfound h2, p, .return {
+  color: #fff;
+
+}
+
+.notfound .return {
+  border-radius: 4px;
+  text-decoration: underline;
+}
