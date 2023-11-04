@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+// Created a new component called Err404.js for the 404 error page
 const Err404 = () => {
         return ( 
                 <div className="notfound">
